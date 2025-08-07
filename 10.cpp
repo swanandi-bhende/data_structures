@@ -27,7 +27,7 @@ int main()
     while (i < sizeA && j < sizeB) 
     {
         if (A[i].row == B[j].row && A[i].col == B[j].col) 
-        {
+           {
             int sum = A[i].value + B[j].value;
             if (sum != 0) {
                 C[sizeC++] = {A[i].row, A[i].col, sum};
